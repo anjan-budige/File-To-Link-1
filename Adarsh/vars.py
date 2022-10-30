@@ -30,7 +30,7 @@ class Var(object):
     
     else:
         ON_HEROKU = False
-    FQDN = str('FQDN', BIND_ADRESS) if not ON_HEROKU else APP_NAME+'.herokuapp.com'
+    FQDN = BIND_ADRESS
     HAS_SSL= False
     if HAS_SSL:
         URL = "https://{}/".format(FQDN)
