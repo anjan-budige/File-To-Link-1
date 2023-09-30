@@ -9,16 +9,16 @@ load_dotenv()
 
 class Var(object):
     MULTI_CLIENT = False
-    API_ID = "15914139"
-    API_HASH = "f5c54e1dd806604552e211b3841c1ad4"
-    BOT_TOKEN = "5371686231:AAH-frIffQw2bAjW802b6Ilk7A6cXiuYqtA"
-    API = "8b088f1bec72e5db45502b832a1116b99e11e876"
+    API_ID = '15914139'
+    API_HASH = 'f5c54e1dd806604552e211b3841c1ad4'
+    BOT_TOKEN = '5371686231:AAH-frIffQw2bAjW802b6Ilk7A6cXiuYqtA'
+    API = '8b088f1bec72e5db45502b832a1116b99e11e876'
     SESSION_NAME = 'filetolinkbot'
     SLEEP_THRESHOLD = '60'
     WORKERS = '4'
     BIN_CHANNEL = "-1001767960284"
-    PORT = 51691
-    BIND_ADRESS = '13.126.125.81'
+    PORT = 8080
+    BIND_ADRESS = '0.0.0.0'
     PING_INTERVAL = "1200" # 20 minutes
     OWNER_ID =  "1121140181" 
     NO_PORT = False
