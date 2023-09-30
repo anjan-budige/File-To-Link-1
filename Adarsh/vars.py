@@ -15,12 +15,12 @@ class Var(object):
     API = '8b088f1bec72e5db45502b832a1116b99e11e876'
     SESSION_NAME = 'filetolinkbot'
     SLEEP_THRESHOLD = '60'
-    WORKERS = 4
-    BIN_CHANNEL = "-1001767960284"
+    WORKERS = '4'
+    BIN_CHANNEL = '-1001767960284'
     PORT = 8080
     BIND_ADRESS = '0.0.0.0'
-    PING_INTERVAL = "1200" # 20 minutes
-    OWNER_ID =  "1121140181" 
+    PING_INTERVAL = '1200' # 20 minutes
+    OWNER_ID =  '1121140181'
     NO_PORT = False
     APP_NAME = None
     OWNER_USERNAME = "alpha"
