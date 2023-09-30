@@ -15,7 +15,7 @@ class Var(object):
     API = '8b088f1bec72e5db45502b832a1116b99e11e876'
     SESSION_NAME = 'filetolinkbot'
     SLEEP_THRESHOLD = '60'
-    WORKERS = '4'
+    WORKERS = 4
     BIN_CHANNEL = "-1001767960284"
     PORT = 8080
     BIND_ADRESS = '0.0.0.0'
